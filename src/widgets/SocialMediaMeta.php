@@ -111,7 +111,7 @@ class SocialMediaMeta extends Widget
      * @param string $attribute
      * @param string $content
      */
-    protected function registerMetaTag(string $metaAttribute, string $attribute, string $content): void
+    protected function registerMetaTag(string $metaAttribute, string $attribute, ?string $content): void
     {
         if (empty($content) === false) {
             $this->view->registerMetaTag([
