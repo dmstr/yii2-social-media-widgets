@@ -44,7 +44,7 @@ SocialMediaMeta::widget([
 ```twig
 {{ use ('dmstr/socialmediawidgets/widgets/SocialMediaMeta') }}
 
-{{ SocialMedia_widget({
+{{ SocialMediaMeta_widget({
     title: title,
     description: description,
     image: image(image),
